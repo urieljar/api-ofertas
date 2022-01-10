@@ -27,7 +27,7 @@ class GuardarTarjetaRequest extends FormRequest
             'categoria' => 'required',
             'subcategoria' => 'required',
             'nombre' => 'required',
-            'rfc' => 'required|unique:tarjetas',
+            'rfc' => 'required',
             'telefono' => 'required',
             'contacto' => 'required',
             'tel_contacto' => 'required',
